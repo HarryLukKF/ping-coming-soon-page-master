@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+
+*{
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.container{
+padding: 40px;
+max-width: 520px;
+margin: auto;
+}
+body {
+    background-color: white;
+  }
+
+#logo{
+    width: 80px;
+display: block;
+margin:auto;
+margin-bottom: 40px;
+}
+
+#illustration{
+width: 100%;
+}
+
+h1{
+color: #CFCFCF;
+text-align: center;
+font-weight: 300;
+font-size:  25px;
+}
+
+h1 span{
+    color: black;
+    font-weight: 700;
+}
+
+
+#email{
+    box-sizing: border-box;
+    padding-left: 25px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: #b8cafb 2px solid;
+}
+
+#email::placeholder{
+    color: #b8cafb;
+}
+button{
+    cursor:pointer;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    background-color: #4d7bf4;
+    color: white;
+    border: #4d7bf4 2px solid;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.social-bin-group{
+/* width: fit-content; */
+display: flex;
+justify-content: space-evenly;
+width: 130px;
+margin: auto;
+margin-top: 150px;
+}
+
+.social-bin-group a{
+    display: block;
+    border:1px #4d7bf4 solid;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+
+.fab{
+cursor:pointer;
+    margin: 0;
+color: #4d7bf4;
+}
+.footer,.subtitle{
+    color: #4A4D55;
+    font-weight: 100;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer{
+    color: #a9aaaf;
+
+}
+
+#emailform{
+    display:flex;
+    flex-direction: column;
+}
+
+.fa-facebook-f{
+margin: 5px 8px;
+}
+.fa-twitter{
+margin: 5px;
+}
+.fa-instagram{
+ margin: 5px;   
+}
+
+
+
+
+@media(min-width:768px){
+    h1{
+        font-size: 40px;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    #email{
+        width: 70%;
+    }
+
+    button{
+        width: 28%;
+    }
+    #emailform{
+        flex-direction: row;
+    }
+}
